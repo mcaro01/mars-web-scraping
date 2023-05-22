@@ -31,30 +31,40 @@ Stored all the dictionaries in a Python list.
 
 Printed the list to view success.
 
-Part 2: Scrape and analyze Mars weather data, which exists in a table.
+Part 2: Scrape and analyze Mars weather data, which exists in a table. (6 parts)
 
-Used automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspected the page to identify which elements to scrape by using Chrome DevTools.
+1)Used automated browsing to visit the Mars Temperature Data SiteLinks to an external site.. Inspected the page to identify which elements to scrape by using Chrome DevTools.
 
+2)Created a Beautiful Soup object and use it to scrape the data in the HTML table. 
 
-Created a Beautiful Soup object and use it to scrape the data in the HTML table. 
+3)Assembled the scraped data into a Pandas DataFrame. 
 
-Assembled the scraped data into a Pandas DataFrame. 
+4)Examined the data types that are currently associated with each column.  int, or float data types. changed and confirmed the data typs for data analysis.
 
-Examined the data types that are currently associated with each column.  int, or float data types. changed and confirmed the data typs for data analysis.
+5)Analysed the data by Using Pandas functions 
+a)How many months exist on Mars?
+     12
+b)How many Martian (and not Earth) days worth of data exist in the scraped dataset?
+     1867
+c)What are the coldest and the warmest months on Mars (at the location of Curiosity)? 
+       Find the average minimum daily temperature for all of the months.
+        (0.5, 1.0, 'Daily minimum temperature')
+ d)Plotted the results as a bar chart.
+   
+ e)Which months have the lowest and the highest atmospheric pressure on Mars?
+     On average, the third month has the coldest minimum temperature on Mars, and the eighth month is the warmest. But it is always very cold there in human      terms!
+        
+ f)Find the average daily atmospheric pressure of all the months.
+     Atmospheric pressure is, on average, lowest in the sixth month and highest in the ninth.
 
-Analysed the data by Using Pandas functions 
-How many months exist on Mars?
-How many Martian (and not Earth) days worth of data exist in the scraped dataset?
-What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
-Find the average minimum daily temperature for all of the months.
-Plot the results as a bar chart.
-Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
-Find the average daily atmospheric pressure of all the months.
-Plot the results as a bar chart.
-About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
-Consider how many days elapse on Earth in the time that Mars circles the Sun once.
-Visually estimate the result by plotting the daily minimum temperature.
-Export the DataFrame to a CSV file.
+Plotted the results as a bar chart.
+
+  g)About how many terrestrial (Earth) days exist in a Martian year?
+     The distance from peak to peak is roughly 1425-750, or 675 days. A year on Mars appears to be about 675 days from the plot. Internet search confirms that a        Mars year is equivalent to 687 earth days.
+
+Plotted the daily minimum temperature.
+
+The DataFrame was exported to a CSV file.
 
 
 
