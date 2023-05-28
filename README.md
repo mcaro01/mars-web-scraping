@@ -4,11 +4,16 @@ Overview:
 
 This new assignment consists of two technical products.  
 
-Part 1: Scrape titles and preview text from Mars news articles.
+## Part 1: Scrape titles and preview text from Mars news articles.
 
-Part 2: Scrape and analyze Mars weather data, which exists in a table.
+## Part 2: Scrape and analyze Mars weather data, which exists in a table.
 
-Part 1: Scrape Titles and Preview Text from Mars News
+## Part 1: Scrape Titles and Preview Text from Mars News
+
+     #[{'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm",
+     #'preview': 'For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously,        #the result of solar storms that began on Aug. 27.'},
+     # {'title': "NASA Prepares to Say 'Farewell' to InSight Spacecraft",
+     #'preview': 'A closer look at what goes into wrapping up the mission as the spacecraft’s power supply continues to dwindl
 
 Using Splinter, an automated browsing was used to visit the Mars news site. Then, extracted the HTML code with Beautiful Soup. After that, Inspected the page to 
 
